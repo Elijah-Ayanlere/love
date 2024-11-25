@@ -19,7 +19,7 @@ window.requestAnimationFrame =
         })();
 window.isDevice = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(((navigator.userAgent || navigator.vendor || window.opera)).toLowerCase()));
 var loaded = false;
-var init = function () {
+var init = function () { 
     if (loaded) return;
     loaded = true;
     var mobile = window.isDevice;
